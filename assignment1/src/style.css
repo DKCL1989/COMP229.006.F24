@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background: transparent;
+}
+
+body {
+    background: rgb(30, 30, 30);
+    color: white;
+    overflow-y: scroll;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: rgb(30, 30, 30);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.contact-info, .form-container, .project-card, .service-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.contact-info h2, 
+.form-container h2, 
+.project-card h2, 
+.service-card h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.form-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.form-group div {
+    flex: 1 1 45%;
+}
+
+.form-group div.full-width {
+    flex: 1 1 100%;
+}
+
+label {
+    display: block;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    background-color: white;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.project-list, .service-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.project-card, .service-card {
+    overflow: hidden;
+}
+
+.project-card .content, .service-card .content {
+    padding: 20px;
+}
+
+.project-card p, .service-card p {
+    font-size: 1em;
+    color: #555;
+}
+
+.project-card img, .service-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.smaller-photo {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 50%;
+}
+
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    .container h1, .aboutheader {
+        font-size: 1.5em;
+    }
+
+    .form-group div {
+        flex: 1 1 100%;
+    }
+
+    .project-card img, .service-card img {
+        height: auto;
+    }
+
+    .smaller-photo {
+        max-width: 100%;
+    }
+}
