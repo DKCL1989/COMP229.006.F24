@@ -8,7 +8,7 @@ const Home = () => {
             <p>Welcome to my website! I am dedicated to providing the best services to my clients.</p>
             <h3>Mission Statment</h3>
             <p>My mission is to deliver high-quality solutions or services that meet your needs and exceed your expectations.</p>
-            <img className="Selfie" src={require('./assets/selfie1.jpg')} alt="placeholder" />
+            <img className="smaller-photo1" src={require('./assets/selfie1.jpg')} alt="My Selfie" />
             <nav>
                 <ul>
                     <li><Link to="/about">About</Link></li>

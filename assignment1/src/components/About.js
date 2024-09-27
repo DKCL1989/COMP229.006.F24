@@ -7,9 +7,9 @@ const About = () => {
       <div className="flex-container">
         <div className="image-container">
           <img
-            src={require('./assets/selfie2.jpg')} // Adjust the path as needed
+            src={require('./assets/selfie2.jpg')} 
             alt="David LEE"
-            className="smaller-photo" // Apply the CSS class here
+            className="smaller-photo"
           />
         </div>
         <div>

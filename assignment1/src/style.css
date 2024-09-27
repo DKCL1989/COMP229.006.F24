@@ -110,10 +110,14 @@ button {
 }
 
 .smaller-photo {
-    width: 100%;
+    width: 50%;
     max-width: 400px;
     height: auto;
     border-radius: 50%;
+}
+.smaller-photo1 {
+    width: 50%;
+    height: auto;
 }
 
 
