@@ -1,4 +1,8 @@
 import React from 'react';
+//File Name: About.js
+//Student's Name: Ka Chuen David LEE
+//StudentID: 301389811
+//Date: September 27, 2024
 
 const About = () => {
   return (

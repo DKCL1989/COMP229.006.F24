@@ -2,6 +2,10 @@ import React from 'react';
 import HRServicesImage from './assets/HRservices.jpg';
 import WebDesignServicesImage from './assets/webdesignservices.jpg';
 import GeneralProgrammingImage from './assets/programmingservices.jpg';
+//File Name: Services.js
+//Student's Name: Ka Chuen David LEE
+//StudentID: 301389811
+//Date: September 27, 2024
 
 const Services = () => {
   const services = [

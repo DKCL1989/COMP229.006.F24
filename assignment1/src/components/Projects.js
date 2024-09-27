@@ -2,6 +2,10 @@ import React from 'react';
 import GUIcalculatorImage from './assets/GUIcalculator.jpg';
 import WebDesignImage from './assets/webdesign.jpg';
 import HiringImage from './assets/hiring.jpg';
+//File Name: Projects.js
+//Student's Name: Ka Chuen David LEE
+//StudentID: 301389811
+//Date: September 27, 2024
 
 const Projects = () => {
   const projects = [

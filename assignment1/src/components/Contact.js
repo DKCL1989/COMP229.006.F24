@@ -1,5 +1,9 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+//File Name: Contact.js
+//Student's Name: Ka Chuen David LEE
+//StudentID: 301389811
+//Date: September 27, 2024
 
 const Contact = () => {
   const navigate = useNavigate();
