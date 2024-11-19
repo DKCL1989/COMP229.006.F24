@@ -1,5 +1,5 @@
 import { Outlet, NavLink, Link } from "react-router-dom";
-import image_logo from "../assets/logo.png";
+import image_logo from "../../assets/image_logo.JPG"
 
 const Header = () => {
   return (
@@ -29,16 +29,23 @@ const Header = () => {
                   <i className="fa-solid fa-address-book"></i> About
                 </NavLink>
               </li>
-              <li className="nav-item">
-                <NavLink className="nav-link" to="/services">
-                  <i className="fas fa-concierge-bell"></i> Services
-                </NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink className="nav-link" to="/contact">
-                  <i className="fas fa-envelope"></i> Contact
-                </NavLink>
-              </li>
+              <li className="nav-item dropdown">
+                <Link className='nav-link dropdown-toggle' to="#" role="button" data-bs-toggle="dropdown">
+                  <i className="fa-solid fa-barcode"></i> Inventory
+                </Link>
+                <ul className="dropdown-menu">
+                  <li>
+                    <NavLink className="dropdown-item" to="/inventory/list">
+                      <i className="fa-regular fa-rectangle-list"></i> Inventory List
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink className="dropdown-item" to="/inventory/add">
+                      <i className="fa-solid fa-square-plus"></i> Add a new Item
+                    </NavLink>
+                  </li>
+                </ul>
+              </li >
             </ul>
           </div>
         </div>
